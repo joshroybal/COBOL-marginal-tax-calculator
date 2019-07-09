@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<body>
+<h1>COBOL Marginal Tax Calculator</h1>
+<form action = "cgi-bin/taxcalc.cgi" method = "POST"	accept-charset="utf-8" enctype="multipart/form-data">
+<div>ANNUAL INCOME : $<input type = "text" name = "amount" size="10"></label></div>
+<div><label><input type="radio" name="status" value="single">SINGLE</label></div>
+<div><label><input type="radio" name="status" value="married_joint">MARRIED FILING JOINTLY</label></div>
+<div><label><input type="radio" name="status" value="married_separate">MARRIED FILING SEPARATELY</label></div>
+<div><label><input type="radio" name="status" value="head_of_household">HEAD OF HOUSEHOLD</label></div>
+<div>NO. OF EXEMPTIONS :<input type = "text" name = "no_exempt" size="10"></label></div>
+<div><input type = "submit" value = "Submit"></div>
+</form>
+</body>
